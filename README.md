@@ -5,9 +5,11 @@
 - 语音识别
 - 语音听写
 组成一套完整的语音交互系统。
+
 ## 效果图
-<img src="D:\csdn博客\BaiDuVoice.gif" width = "300" height = "500" alt="BlueToothServer" align=left /><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="http://img.blog.csdn.net/20170123231758117" width = "300" height = "500" alt="BlueToothServer" align=left /><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 效果图里没有声音，实际上唤醒成功后，会有语音合成的“唤醒成功，请说出指令”女声。语音识别成功后同样会有语音合成的女声，具体参见代码。
+
 ## 使用方法
 clone后，语音合成第一次使用需要联网，显示出auth success后表示语音合成授权成功，之后就可以离线使用了。语音唤醒和语音识别可以离线使用。
 说出唤醒词即可唤出语音识别，在线情况下可以识别任意词语，离线情况只能识别特定词语。(唤醒词和离线识别词语可以去官网[百度语音](http://yuyin.baidu.com/)自定义，然后修改下面的代码即可)
