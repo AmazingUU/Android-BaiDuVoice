@@ -1,6 +1,7 @@
 # Android 基于百度语音的语音交互功能
 ## 简介
 项目利用百度语音的
+
 - 语音唤醒
 - 语音识别
 - 语音听写
@@ -8,7 +9,7 @@
 组成一套完整的语音交互系统。
 
 ## 效果图
-<img src="http://img.blog.csdn.net/20170123231758117" width = "300" height = "500" alt="BaiDuVoice" align=left /><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src="https://github.com/AmazingUU/Android-BaiDuVoice/raw/master/mdPicRes/BaiDuVoice.gif" width = "300" height = "500" alt="BaiDuVoice" align=left /><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 效果图里没有声音，实际上唤醒成功后，会有语音合成的“唤醒成功，请说出指令”女声。语音识别成功后同样会有语音合成的女声，具体参见代码。
 
 ## 使用方法
