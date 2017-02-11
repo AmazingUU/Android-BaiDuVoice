@@ -26,4 +26,5 @@ intent.putExtra("grammar", "asset:///baidu_speech_grammardemo.bsg"); // 设置�
 
 语音识别若不成功，可以再次说出唤醒词，这样整套语音交互系统就避免了手动控制。
 ## 注意事项
-项目里的APPID，APIKey，SecretKey只是为了让项目正常运行，实际使用过程中请替换成自己的APPID，APIKey，SecretKey。
+1. 项目里的APPID，APIKey，SecretKey只是为了让项目正常运行，实际使用过程中请替换成自己的APPID，APIKey，SecretKey。
+2. 百度语音识别提供的jniLibs里的so库是arm版，没有x86版，所以请在真机运行，模拟器上无法运行
